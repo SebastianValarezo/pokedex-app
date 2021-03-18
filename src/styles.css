@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 150px;
+}
+
+.searchbar-container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.searchbar {
+  width: 520px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
